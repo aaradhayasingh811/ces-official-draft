@@ -1,0 +1,440 @@
+/* container */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container_hero{
+    height:100dvh;
+}
+.hero_content_top{
+    /* margin-top:2rem; */
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color:black;
+    width:100%;
+    font-size: 3.5rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background-color: gainsboro; */
+}
+.hero_content_bottom{
+   height:100%;
+   padding-left:2rem;
+   padding-right:2rem;
+   padding-top:5rem;
+   display: flex;
+   flex-direction: column;
+   gap:2.5rem;
+   /* background-color: beige; */
+}
+.cont1{
+    width:54%;
+}
+.hero_content_bottom .cont1 .enex_heading{
+    color:rgb(156, 153, 145);
+    font-family: Share Tech;
+    font-size: 7rem;
+    font-weight: 900;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    height: 100%;
+    /* padding-left:2rem;
+    padding-top:5rem; */
+    /* background-color: beige; */
+   /* background-color: rgb(31, 31, 142); */
+   position: relative;
+   height: fit-content;
+}
+.hero_content_bottom .cont1 .enex_heading:after{
+    content: "";
+    height:6.5rem;
+    position: absolute;
+    width: 7rem;
+    top:1.5rem;
+    left:18rem;
+    /* background-color: rgb(101, 82, 33); */
+    border:10px solid rgba(220, 8, 47, 0.394);
+    border-left:none;
+    border-radius: 20px;
+    /* animation: rotate-animation 10s infinite linear; */
+}
+@keyframes rotate-animation {
+	0% {
+		transform: rotate(0deg);
+  }
+  50% {
+		transform: rotate(180deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+.hero_content_bottom .cont1 .enex_heading:before{
+    content: "THE ANNUAL EVENT";
+    /* height:.4rem; */
+    position: absolute;
+    width:100%;
+    /* background-color: black; */
+    top:-0.5rem;
+    left:0.4rem;
+    font-size: 1rem;
+    /* background-color: rgb(101, 82, 33); */
+    color: rgb(168, 63, 19);
+}
+.hero_content_bottom .cont2{
+    width: 45%;
+    color:white;
+}
+.hero_content_bottom .cont2 p{
+    font-size: 1.3rem;
+}
+.cont3{
+    width: 45%;
+    padding-left: 2rem;
+}
+
+
+.responsive-two-columns {
+    display:flex;
+    flex-wrap:wrap;
+    position: relative;
+
+}
+
+/* columns */
+.responsive-two-columns > * {
+    width: 100%;
+    padding:1rem;
+    box-sizing: border-box;
+}
+
+.left {
+    padding: 0%;
+    height:100vh;
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.right {
+    padding: 0%;
+      background-size: cover;
+      /* background-position: center; */
+      height:100vh;
+    height: 100dvh;
+}
+.right1{
+    /* background: url("./1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; */
+    margin: 0;
+    padding: 0;
+    height:100vh;
+    height: 100dvh;
+    
+}
+.right1 img{
+    height: 100%;
+    width: 100%;
+}
+.events_winner{
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* overflow: hidden; */
+    flex-direction: column;
+    /* background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 47%, #ffffff 58%); */
+    background-color: #8EC5FC;
+    background-image: linear-gradient(61deg, #8EC5FC 49%, #ffffff 100%);
+}
+
+.left .event_text_cont{
+    width:70%;
+    text-align: justify;
+    margin-left:2rem;
+}
+.left .event_text_cont hr{
+    height: 5px;
+    width: 30%;
+    margin:2rem 0;
+}
+.testinomial_bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.winners_heading{
+  padding:1rem;
+  padding-top:2rem;
+  font-size: 3.5rem;
+  font-weight: 800;
+  border-bottom: 8px solid gray;
+  height: fit-content;
+  
+}
+
+/* tablet breakpoint */
+@media (min-width:768px) {
+    .responsive-two-columns {
+        position: sticky;
+        top: 0;
+    }
+    .responsive-two-columns > * {
+        width:50%;
+    }
+
+}
+
+.circle-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 21rem;
+    height: 21rem;
+    z-index: 1;
+    opacity: 0.9;
+}
+
+/* :hover.circle-container {
+    opacity: 1;
+    transition: 0.6s ease-in-out;
+} */
+
+
+.circle-icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.circle-text {
+    font-family: Share Tech;
+    font-size: 4rem; /* Adjust font size as needed */
+    color: white;
+    text-align: center; /* Center-align text */
+    max-width: 70%; /* Set a maximum width to keep text inside circle */
+    margin: 5px 5px; /* Adjust spacing */
+}
+
+/* CSS */
+.button-89 {
+  --b: 3px;   /* border thickness */
+  --s: .45em; /* size of the corner */
+  /* --color: #7779c8; */
+  --color: rgb(156, 153, 145);
+  
+  padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+  color: var(--color);
+  --_p: var(--s);
+  background:
+    conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
+    var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+  transition: .3s linear, color 0s, background-color 0s;
+  outline: var(--b) solid #0000;
+  outline-offset: .6em;
+  font-size: 16px;
+
+  border: 0;
+
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-89:hover,
+.button-89:focus-visible{
+  --_p: 0px;
+  outline-color: var(--color);
+  outline-offset: .05em;
+}
+
+.button-89:active {
+  background: var(--color);
+  color: #fff;
+}
+
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
+figure.snip1192 {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 220px;
+  max-width: 310px;
+  width: 100%;
+  color: #333;
+  text-align: left;
+  box-shadow: none !important;
+}
+figure.snip1192 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+figure.snip1192 img {
+  max-width: 100%;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  /* margin-bottom: 15px; */
+  display: inline-block;
+  z-index: 1;
+  position: relative;
+}
+figure.snip1192 blockquote {
+  margin: 0;
+  display: block;
+  border-radius: 8px;
+  position: relative;
+  background-color: #fafafa;
+  padding: 30px 50px 65px 50px;
+  font-size: 0.8em;
+  font-weight: 500;
+  margin: 0 0 -50px;
+  line-height: 1.6em;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+figure.snip1192 blockquote:before,
+figure.snip1192 blockquote:after {
+  font-family: 'FontAwesome';
+  content: "\201C";
+  position: absolute;
+  font-size: 50px;
+  opacity: 0.3;
+  font-style: normal;
+}
+figure.snip1192 blockquote:before {
+  top: 35px;
+  left: 20px;
+}
+figure.snip1192 blockquote:after {
+  content: "\201D";
+  right: 20px;
+  bottom: 35px;
+}
+figure.snip1192 .author {
+  margin: 0;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+}
+figure.snip1192 .author h5 {
+  opacity: 0.8;
+  margin: 0;
+  font-weight: 800;
+}
+figure.snip1192 .author h5 span {
+  font-weight: 400;
+  text-transform: none;
+  display: block;
+}
+/* Demo purposes only */
+/* <div class="hero_content_bottom">
+                <div class="cont1"><h1 class="enex_heading">Ennexus</h1></div>
+                <div class="cont2"><p>Ennexus is a technical fest that is specifically designed for students to work and participate in the field of Computer Science. It is a platform that provides students with an opportunity to showcase their technical skills and compete with their peers from the same and other institutions as well.</p></div>
+                <div class="cont3">
+                    <button class="button-89" role="button">Visit Page</button>
+                </div>
+            </div> */
+
+@media (max-width:910px)
+{
+    .hero_content_bottom .cont1 .enex_heading{
+        font-size: 5rem;
+    }
+    .hero_content_bottom .cont1 .enex_heading:before{
+        font-size:0.9rem;
+    }
+    .hero_content_bottom .cont1 .enex_heading:after{
+        top:0.6rem;
+        left:13rem;
+        height:5.5rem;
+        width:5rem;
+    }
+   
+    .hero_content_bottom .cont2 p{
+        font-size: 1rem;
+        line-height:2rem;
+
+    }
+    .button-89{
+        font-size:1.1rem;
+        /* background-color: #ddd; */
+    }
+    .cont3{
+        padding-left: 1rem;
+        width:unset;
+    }
+    .circle-container{
+        height:14rem;
+        width:14rem;
+    }
+    .circle-text{
+        font-size:24px;
+    }
+
+}
+@media (max-width:620px)
+{
+    .hero_content_bottom .cont2 p{
+        font-size: 1.1rem;
+        /* line-height:rem; */
+        line-height:1.5rem;
+    }
+
+}
+@media (max-width:500px)
+{
+    .hero_content_bottom .cont1 .enex_heading{
+        font-size: 5rem;
+    }
+    .hero_content_bottom .cont1 .enex_heading:before{
+        font-size:0.9rem;
+    }
+    .hero_content_bottom .cont1 .enex_heading:after{
+        top:0.6rem;
+        left:13rem;
+        height:5.5rem;
+        width:5rem;
+    }
+    /* .cont2{
+        align-self: center;
+    } */
+    .hero_content_bottom .cont2 p{
+        font-size: 0.8rem;
+        /* line-height:rem; */
+        line-height:1.3rem;
+    }
+    .button-89{
+        font-size:0.9rem;
+        /* background-color: #ddd; */
+    }
+    .cont3{
+        padding-left: 0rem;
+    }
+    .circle-container{
+        height:16rem;
+        width:16rem;
+    }
+    .circle-text{
+        font-size:24px;
+    }
+
+}
