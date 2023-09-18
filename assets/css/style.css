@@ -2616,7 +2616,7 @@ h6 {
   fill: white;
 }
 
-#carouselExampleIndicators {
+#carouselExampleInterval {
   display: none;
 }
 
@@ -2673,7 +2673,7 @@ h6 {
     display: none;
   }
 
-  #carouselExampleIndicators {
+  #carouselExampleInterval {
     display: block;
   }
 
