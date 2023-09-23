@@ -2317,7 +2317,7 @@ h6 {
   position: relative;
   transform: rotateX(calc(var(--rX) * 1deg)) rotateY(calc(var(--rY) * 1deg));
 
-  background: linear-gradient(hsla(0, 0%, 100%, .1), hsla(0, 0%, 100%, .1)), url("/img_icons/Algorica_Ed1.jpg");
+  background: linear-gradient(hsla(0, 0%, 100%, .1), hsla(0, 0%, 100%, .1)), url("/ces-official-draft/img_icons/Algorica_Ed1.jpg");
   background-position: var(--bX) var(--bY);
   /* background-size: 19rem auto; */
   background-size: cover;
@@ -2364,7 +2364,7 @@ h6 {
 
 .mag_img .main .wrap .container--2 {
   /* filter: hue-rotate(80deg) saturate(140%); */
-  background: linear-gradient(hsla(46, 100%, 50%, 0), hsla(0, 43%, 54%, 0)), url("/img_icons/Algorica_front.jpeg");
+  background: linear-gradient(hsla(46, 100%, 50%, 0), hsla(0, 43%, 54%, 0)), url("/ces-official-draft/img_icons/Algorica_front.jpeg");
   /* background: url("./Algorica_front.jpeg"); */
   background-position: var(--bX) var(--bY);
   background-size: cover;
