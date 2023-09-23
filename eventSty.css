@@ -21,6 +21,8 @@
 }
 .hero_content_bottom{
    height:100%;
+   background-color: rgba(4, 4, 25, 0.639);
+background-blend-mode: multiply;
    padding-left:2rem;
    padding-right:2rem;
    padding-top:5rem;
