@@ -658,7 +658,7 @@ h6 {
 }
 
 #hero .play-btn:hover::after {
-  border-left: 15px solid #f82249;
+  border-left: 15px solid #02b3ed;
   transform: scale(20);
 }
 
