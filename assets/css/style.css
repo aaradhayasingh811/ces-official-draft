@@ -18,6 +18,7 @@ body {
   background-color: rgb(231, 226, 226);
   color: #2f3138;
   font-family: "Open Sans", sans-serif;
+  
 }
 
 a {
@@ -107,6 +108,9 @@ h6 {
   margin-bottom: 60px;
   position: relative;
   padding-bottom: 20px;
+  width: 100vw;
+  width: 100dvw;
+  
 }
 
 .section-header::before {
@@ -146,6 +150,8 @@ h6 {
 --------------------------------------------------------------*/
 #header {
   height: 90px;
+  width: 100vw;
+  width: 100dvw;
   position: fixed;
   left: 0;
   top: 0;
@@ -531,6 +537,8 @@ h6 {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
+  width: 100vw;
+  width: 100dvw;
   width: 100%;
   height: 100vh;
   background: url(../img/mmm-img.jpg) top center;
@@ -736,6 +744,8 @@ h6 {
   position: relative;
   color: #fff;
   padding: 60px 0 40px 0;
+  width: 100vw;
+  width: 100dvw;
 }
 
 @media (min-width: 1024px) {
@@ -1147,6 +1157,8 @@ h6 {
 #gallery {
   padding: 60px;
   overflow: hidden;
+  width: 100vw;
+  width: 100dvw;
 }
 
 #gallery .swiper-pagination {
@@ -1185,9 +1197,9 @@ h6 {
   }
 
   #gallery .swiper-slide-active {
-    border: 5px solid #142353;
-    padding: 4px;
-    background: #fff;
+    /* border: 5px solid #142353; */
+    /* padding: 4px; */
+    /* background: #fff; */
     z-index: 1;
     transform: scale(1.15);
     margin-top: 6px;
@@ -1829,6 +1841,8 @@ h6 {
   padding: 0 0 25px 0;
   color: #eee;
   font-size: 14px;
+  width: 100vw;
+  width: 100dvw;
 }
 
 #footer .footer-top {
@@ -1982,9 +1996,12 @@ h6 {
   background-color: #fff;
   height: 46rem;
   width: 100%;
+  width: 100vw;
+  width: 100dvw;
 }
 
 .algo-cont {
+  width: 100%;
   position: absolute;
   display: flex;
   justify-content: center;
@@ -2055,7 +2072,8 @@ h6 {
 }
 
 .algo-right {
-  width: 49%
+  width: 49%;
+  overflow-y: hidden;
 }
 
 .algo-right .right-topcircle {
@@ -2103,6 +2121,8 @@ h6 {
 .algo-right .right-bottomcontent {
   background-color: #fff;
   position: relative;
+  overflow-y: hidden;
+
 }
 
 .right-bottomcontent .bottom_content {
@@ -2115,6 +2135,7 @@ h6 {
   display: flex;
   flex-direction: column;
   gap: 1.4rem;
+  font-size: 0.8rem;
 }
 
 /* buttton css */
@@ -2393,9 +2414,11 @@ h6 {
   background: url("../img/about-bg.jpg");
   background-size: cover;
   background-attachment: fixed;
-  background-color: #1a1a3c;
+  background-color: rgba(6, 12, 34, 0.98);
   background-blend-mode: multiply;
   color: #fff;
+  width: 100vw;
+  width: 100dvw;
 
 }
 
@@ -2739,6 +2762,8 @@ h6 {
 /* faculty section */
 #faculty-section {
   background-color: rgb(231, 226, 226);
+  width: 100vw;
+  width: 100dvw;
 }
 
 .faculty-section {
@@ -2879,6 +2904,8 @@ hr {
   background-size: cover;
   overflow: hidden;
   position: relative;
+  width: 100vw;
+  width: 100dvw;
 }
 
 #contact:before {
@@ -3088,4 +3115,43 @@ hr {
 
 .button-34:hover{
   color: #151638;
+}
+
+
+/* button 89 */
+/* CSS */
+.button-89 {
+  --b: 3px;   /* border thickness */
+  --s: .45em; /* size of the corner */
+  /* --color: #7779c8; */
+  --color: rgb(156, 153, 145);
+  
+  padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+  color: var(--color);
+  --_p: var(--s);
+  background:
+    conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
+    var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+  transition: .3s linear, color 0s, background-color 0s;
+  outline: var(--b) solid #0000;
+  outline-offset: .6em;
+  font-size: 16px;
+
+  border: 0;
+
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-89:hover,
+.button-89:focus-visible{
+  --_p: 0px;
+  outline-color: var(--color);
+  outline-offset: .05em;
+}
+
+.button-89:active {
+  background: var(--color);
+  color: #fff;
 }
