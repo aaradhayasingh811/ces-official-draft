@@ -108,8 +108,7 @@ h6 {
   margin-bottom: 60px;
   position: relative;
   padding-bottom: 20px;
-  width: 100vw;
-  width: 100dvw;
+  
   
 }
 
@@ -150,8 +149,7 @@ h6 {
 --------------------------------------------------------------*/
 #header {
   height: 90px;
-  width: 100vw;
-  width: 100dvw;
+
   position: fixed;
   left: 0;
   top: 0;
@@ -537,8 +535,7 @@ h6 {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
-  width: 100vw;
-  width: 100dvw;
+ 
   width: 100%;
   height: 100vh;
   background: url(../img/mmm-img.jpg) top center;
@@ -744,8 +741,7 @@ h6 {
   position: relative;
   color: #fff;
   padding: 60px 0 40px 0;
-  width: 100vw;
-  width: 100dvw;
+ 
 }
 
 @media (min-width: 1024px) {
@@ -1157,8 +1153,6 @@ h6 {
 #gallery {
   padding: 60px;
   overflow: hidden;
-  width: 100vw;
-  width: 100dvw;
 }
 
 #gallery .swiper-pagination {
@@ -1841,8 +1835,7 @@ h6 {
   padding: 0 0 25px 0;
   color: #eee;
   font-size: 14px;
-  width: 100vw;
-  width: 100dvw;
+ 
 }
 
 #footer .footer-top {
@@ -1996,8 +1989,7 @@ h6 {
   background-color: #fff;
   height: 46rem;
   width: 100%;
-  width: 100vw;
-  width: 100dvw;
+  
 }
 
 .algo-cont {
@@ -2417,8 +2409,7 @@ h6 {
   background-color: rgba(6, 12, 34, 0.98);
   background-blend-mode: multiply;
   color: #fff;
-  width: 100vw;
-  width: 100dvw;
+ 
 
 }
 
@@ -2762,8 +2753,7 @@ h6 {
 /* faculty section */
 #faculty-section {
   background-color: rgb(231, 226, 226);
-  width: 100vw;
-  width: 100dvw;
+ 
 }
 
 .faculty-section {
