@@ -154,8 +154,8 @@ h6 {
   left: 0;
   top: 0;
   right: 0;
-  /* width: 90vw;
-  width: 90dvw;
+   /* width: 90vw; */
+  /* width: 90dvw;
   background-color: red; */
   transition: all 0.5s;
   z-index: 997;
@@ -3080,7 +3080,7 @@ hr {
 
 
 .button-34 {
-  background: #5E5DF0;
+  background: #040440;
   border-radius: 999px;
   box-shadow: #5E5DF0 0 10px 20px -10px;
   box-sizing: border-box;
@@ -3103,7 +3103,7 @@ hr {
 }
 
 .button-34:hover{
-  color: #151638;
+  color: #afb1e4;
 }
 
 
