@@ -2406,7 +2406,7 @@ h6 {
   background: url("../img/about-bg.jpg");
   background-size: cover;
   background-attachment: fixed;
-  background-color: rgba(6, 12, 34, 0.98);
+  background-color: #2e3b6a;
   background-blend-mode: multiply;
   color: #fff;
  
@@ -2771,7 +2771,7 @@ h6 {
 }
 
 .faculty_a {
-  padding: 10% 5% 10% 12%;
+  padding: 6% 5% 5% 10%;
 }
 
 .faculty_a a {

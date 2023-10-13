@@ -25,7 +25,7 @@
    background-blend-mode: multiply;
    padding-left:2rem;
    padding-right:2rem;
-   padding-top:5rem;
+   padding-top:4rem;
    display: flex;
    flex-direction: column;
    gap:2.5rem;
@@ -35,10 +35,13 @@
     width:54%;
 }
 .hero_content_bottom .cont1 .enex_heading{
-    color:rgb(156, 153, 145);
-    font-family: Share Tech;
+    /* color:rgb(156, 153, 145); */
+    color:#f7e5e5;
+    /* font-family: Share Tech; */
+    /* font-family: "Raleway", sans-serif; */
+    font-family: "Open Sans", sans-serif;
     font-size: 7rem;
-    font-weight: 900;
+    font-weight: 600;
     display: flex;
     /* justify-content: center; */
     /* align-items: center; */
@@ -55,10 +58,12 @@
     height:6.5rem;
     position: absolute;
     width: 7rem;
-    top:1.5rem;
-    left:18rem;
+    top:1.6rem;
+    left:23.5rem;
     /* background-color: rgb(101, 82, 33); */
-    border:10px solid rgba(220, 8, 47, 0.394);
+    /* border:10px solid rgba(220, 8, 47, 0.394); */
+    /* border:10px solid #f44336b3; */
+    border: 10px solid #f82249;
     border-left:none;
     border-radius: 20px;
     /* animation: rotate-animation 10s infinite linear; */
@@ -80,11 +85,13 @@
     position: absolute;
     width:100%;
     /* background-color: black; */
-    top:-0.5rem;
+    top:-0.1rem;
     left:0.4rem;
     font-size: 1rem;
     /* background-color: rgb(101, 82, 33); */
-    color: rgb(168, 63, 19);
+    /* color: rgb(168, 63, 19); */
+    /* color: #f44336; */
+    color: #f82249;
 }
 .hero_content_bottom .cont2{
     width: 45%;
