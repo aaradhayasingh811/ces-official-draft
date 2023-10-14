@@ -80,6 +80,7 @@
 	}
 }
 .hero_content_bottom .cont1 .enex_heading:before{
+   
     content: "THE ANNUAL EVENT";
     /* height:.4rem; */
     position: absolute;
