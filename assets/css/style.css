@@ -1,6 +1,9 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
 html {
   width: 100vw;
   width: 100dvw;
@@ -1291,7 +1294,6 @@ h6 {
 } */
 
 /* Faq new css */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
 
 :root {
   --accent-color: #32a0dc;
