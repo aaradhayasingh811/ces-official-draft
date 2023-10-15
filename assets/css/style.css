@@ -2004,6 +2004,7 @@ h6 {
 
 .algo-left {
   width: 45%;
+  padding-left:2rem;
   display: flex;
   flex-direction: column;
 }
@@ -2434,7 +2435,7 @@ h6 {
   opacity: 0.8;
   background-color: #fcfcfd2e;
   height: 85%;
-  width: 90%;
+  width: 95%;
   /* background-color: blue; */
   border-radius: 2rem;
   overflow: hidden;
