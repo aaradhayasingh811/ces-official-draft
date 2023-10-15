@@ -1152,7 +1152,7 @@ h6 {
 # Gallery Section
 --------------------------------------------------------------*/
 #gallery {
-  padding: 60px;
+  padding: 90px;
   overflow: hidden;
 }
 
@@ -2000,6 +2000,8 @@ h6 {
   justify-content: center;
   align-items: center;
   margin-top: 2rem;
+  margin-right: 2%;
+  margin-left: 2%;
 }
 
 .algo-left {
@@ -2435,7 +2437,7 @@ h6 {
   opacity: 0.8;
   background-color: #fcfcfd2e;
   height: 85%;
-  width: 95%;
+  width: 85%;
   /* background-color: blue; */
   border-radius: 2rem;
   overflow: hidden;
