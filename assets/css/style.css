@@ -1159,6 +1159,13 @@ h6 {
   overflow: hidden;
 }
 
+@media screen and (max-width: 500px) {
+  #gallery{
+    padding: 90px 30px;
+  }
+}
+
+
 #gallery .swiper-pagination {
   margin-top: 20px;
   position: relative;
@@ -2282,7 +2289,7 @@ h6 {
 
   .algo-left .algo-info p {
     font-size: 2rem;
-    line-height: 2.2rem;
+    line-height: 2rem;
     /* margin:1rem auto; */
   }
 
@@ -2405,6 +2412,11 @@ h6 {
   height: calc(100% - 4rem);
 }
 
+@media (max-width:400px){
+  .right-bottomcontent .bottom_content{
+    height:30rem;
+  }
+}
 
 /* Event Section css */
 .event_new {
@@ -3187,4 +3199,11 @@ hr {
 .button-89:active {
   background: var(--color);
   color: #fff;
+}
+
+@media screen and (min-width: 480px) {
+  .button-34{
+    width:3rem;
+    font-size: 1rem;
+  }
 }
