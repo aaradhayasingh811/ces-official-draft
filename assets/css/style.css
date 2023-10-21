@@ -2010,7 +2010,7 @@ h6 {
   align-items: center;
   margin-top: 2rem;
   margin-right: 2%;
-  margin-left: 2%;
+  /* margin-left: 2%; */
 }
 
 .algo-left {
@@ -2275,6 +2275,7 @@ h6 {
 
   .algo-cont .algo-left {
     width: 90%;
+    padding:0;
   }
 
   .algo-cont .algo-right {
