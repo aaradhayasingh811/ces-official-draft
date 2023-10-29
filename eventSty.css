@@ -85,7 +85,7 @@ html{
 }
 .hero_content_bottom .cont1 .enex_heading:before{
    
-    content: "THE ANNUAL EVENT";
+    content: "THE ANNUAL FEST";
     /* height:.4rem; */
     position: absolute;
     width:100%;
@@ -103,7 +103,7 @@ html{
     color:white;
 }
 .hero_content_bottom .cont2 p{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-align: justify;
     /* line-height: 1.3rem; */
 }
