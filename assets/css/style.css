@@ -1759,6 +1759,13 @@ h6 {
   justify-content: center;
 }
 
+@media (max-width:1205px){
+  .link-button {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+
 @media (max-width:900px) {
   .content-wrapper {
     height: 75rem;
@@ -1896,7 +1903,12 @@ h6 {
 }
 
 .mag_img .main .wrap .container--3 {
-  filter: hue-rotate(160deg) saturate(140%);
+  /* filter: hue-rotate(160deg) saturate(140%); */
+  background: linear-gradient(hsla(46, 100%, 50%, 0), hsla(0, 43%, 54%, 0)), url("../../assets/img/CES_Algorica_Cover.png");
+  /* background: url("./Algorica_front.jpeg"); */
+  background-position: var(--bX) var(--bY);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .mag_img .main .wrap .container p {
